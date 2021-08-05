@@ -2828,17 +2828,15 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bencode@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/bencode/-/bencode-2.0.1.tgz#667a6a31c5e038d558608333da6b7c94e836c85b"
-  integrity sha512-2uhEl8FdjSBUyb69qDTgOEeeqDTa+n3yMQzLW0cOzNf1Ow5bwcg3idf+qsWisIKRH8Bk8oC7UXL8irRcPA8ZEQ==
-  dependencies:
-    safe-buffer "^5.1.1"
+bencode@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/bencode/-/bencode-2.0.2.tgz#e79305ed3e3ab89843cbedc9574fccc067fd3bfe"
+  integrity sha512-0ilVjnE2diLdbec/3KN14SP0KE85wh8v/FceNRMbAB2ioc3yTj9tgqdoK9tFEH++TZ10JreTS29qTwg7+SpTiQ==
 
-bep53-range@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/bep53-range/-/bep53-range-1.0.0.tgz#c776736b4669d7762d096f2b9cab735b6f8c7dcd"
-  integrity sha512-CNsnREjxe2/wD559wzFXMycUnbmUDA9C2Bs6Z2tm++amSma7JowAAxAnaZJMuDq3cWSx9HSIbV04H06QQ11zTA==
+bep53-range@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/bep53-range/-/bep53-range-1.1.1.tgz#20fd125b00a413254a77d42f63a43750ca7e64ac"
+  integrity sha512-ct6s33iiwRCUPp9KXnJ4QMWDgHIgaw36caK/5XEQ9L8dCzSQlJt1Vk6VmHh1VD4AlGCAI4C2zmtfItifBBPrhQ==
 
 big.js@^3.1.3:
   version "3.2.0"
@@ -8402,12 +8400,12 @@ lz-string@1.4.4:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.4.4.tgz#c0d8eaf36059f705796e1e344811cf4c498d3a26"
   integrity sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
 
-magnet-uri@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/magnet-uri/-/magnet-uri-6.0.0.tgz#da0b9f4ce8240c5650de5fe1690faf6e2770c924"
-  integrity sha512-p9wst4k4u0seE7yPonAPKIUTaiC+fm706o2D8FrNoBalK5CcQdU4hB+RHQTqfIISYkFp0nZzsgyKPacPa6Yg/g==
+magnet-uri@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/magnet-uri/-/magnet-uri-6.2.0.tgz#10f7be050bf23452df210838239b118463c3eeff"
+  integrity sha512-O9AgdDwT771fnUj0giPYu/rACpz8173y8UXCSOdLITjOVfBenZ9H9q3FqQmveK+ORUMuD+BkKNSZP8C3+IMAKQ==
   dependencies:
-    bep53-range "^1.0.0"
+    bep53-range "^1.1.0"
     thirty-two "^1.0.2"
 
 mailparser@3.2.0:
@@ -9703,18 +9701,18 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-torrent@9.1.3:
-  version "9.1.3"
-  resolved "https://registry.yarnpkg.com/parse-torrent/-/parse-torrent-9.1.3.tgz#9b4bc8dca243b356bf449938d6d38a259a2a707c"
-  integrity sha512-/Yr951CvJM8S6TjMaqrsmMxeQEAjDeCX+MZ3hGXXc7DG2wqzp/rzOsHtDzIVqN6NsFRCqy6wYLF/W7Sgvq7bXw==
+parse-torrent@9.1.4:
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/parse-torrent/-/parse-torrent-9.1.4.tgz#1fc8a8accd76c7cd6c858061bb7b679288dc2065"
+  integrity sha512-NSlG8ewolqfcEWevUUsrpvxzVWYGaKWwPHMcXTAV2qYYo6pPugVOacQXt8uDlEYh23Ituz+A9pAZK5YaXTV8Pg==
   dependencies:
-    bencode "^2.0.1"
+    bencode "^2.0.2"
     blob-to-buffer "^1.2.9"
     get-stdin "^8.0.0"
-    magnet-uri "^6.0.0"
-    queue-microtask "^1.2.2"
+    magnet-uri "^6.2.0"
+    queue-microtask "^1.2.3"
     simple-get "^4.0.0"
-    simple-sha1 "^3.0.1"
+    simple-sha1 "^3.1.0"
 
 parse5@4.0.0:
   version "4.0.0"
@@ -10635,10 +10633,10 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
-queue-microtask@^1.1.2, queue-microtask@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.2.tgz#abf64491e6ecf0f38a6502403d4cda04f372dfd3"
-  integrity sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg==
+queue-microtask@^1.2.2, queue-microtask@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
+  integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 quick-lru@^5.1.1:
   version "5.1.1"
@@ -11229,10 +11227,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rusha@^0.8.1:
-  version "0.8.13"
-  resolved "https://registry.yarnpkg.com/rusha/-/rusha-0.8.13.tgz#9a084e7b860b17bff3015b92c67a6a336191513a"
-  integrity sha1-mghOe4YLF7/zAVuSxnpqM2GRUTo=
+rusha@^0.8.13:
+  version "0.8.14"
+  resolved "https://registry.yarnpkg.com/rusha/-/rusha-0.8.14.tgz#a977d0de9428406138b7bb90d3de5dcd024e2f68"
+  integrity sha512-cLgakCUf6PedEu15t8kbsjnwIFFR2D4RfL+W3iWFJ4iac7z4B0ZI8fxy4R3J956kAI68HclCFGL8MPoUVC3qVA==
 
 rxjs@^6.5.2:
   version "6.6.3"
@@ -11512,13 +11510,13 @@ simple-get@^4.0.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-sha1@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/simple-sha1/-/simple-sha1-3.0.1.tgz#b34c3c978d74ac4baf99b6555c1e6736e0d6e700"
-  integrity sha512-q7ehqWfHc1VhOm7sW099YDZ4I0yYX7rqyhqqhHV1IYeUTjPOhHyD3mXvv8k2P+rO7+7c8R4/D+8ffzC9BE7Cqg==
+simple-sha1@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/simple-sha1/-/simple-sha1-3.1.0.tgz#40cac8436dfaf9924332fc46a5c7bca45f656131"
+  integrity sha512-ArTptMRC1v08H8ihPD6l0wesKvMfF9e8XL5rIHPanI7kGOsSsbY514MwVu6X1PITHCTB2F08zB7cyEbfc4wQjg==
   dependencies:
-    queue-microtask "^1.1.2"
-    rusha "^0.8.1"
+    queue-microtask "^1.2.2"
+    rusha "^0.8.13"
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
