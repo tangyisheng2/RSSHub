@@ -6063,10 +6063,10 @@ googleapis-common@^5.0.2:
     url-template "^2.0.8"
     uuid "^8.0.0"
 
-googleapis@73.0.0:
-  version "73.0.0"
-  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-73.0.0.tgz#8464ad2716d2400b6dab50fc1f47b374ed7919b8"
-  integrity sha512-bLLoHddONoEZCnhcTW603r7Y1fFqbFo0/3VdnzTNA4XQl+gVY3qycWmRSRrL15ts9Iwfg0rhTde5+OUuBFhi0g==
+googleapis@97.0.0:
+  version "97.0.0"
+  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-97.0.0.tgz#488d2ba6e33c87e4acdcac1d031e2a00c6bb5b6c"
+  integrity sha512-npfVjA4unKsyKvlBC7nhKq6ReH/lsSkSl+0AcW9/TrjT4Uc5QUyJCd1vhH54k5SGDpVQ0xMyyC06dVRMsNarRw==
   dependencies:
     google-auth-library "^7.0.2"
     googleapis-common "^5.0.2"
